@@ -11,9 +11,11 @@
         <h3 id="demo">
             JavaScript Can Change HTML Content!
         </h3>
-        <button type="button" onclick="document.getElementById('demo').innerHTML = 'After Changing HTML Content!'">
+        <button type="button" onclick="Change()">
             Change
         </button><br>
+        <button type="button" onclick="document.getElementById('demo').style.fontSize = '35px'">Change Font Size</button>
+        <br>
 
         <button onclick="document.getElementById('myImage').src='/IMG/pic_bulbon.gif'">Turn on the light</button>
 
@@ -21,5 +23,7 @@
 
 <button onclick="document.getElementById('myImage').src='/IMG/pic_bulboff.gif'">Turn off the light</button>
     </div>
+
+    <script src="/JS/introduction.js"></script>
 </body>
 </html>
