@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+</head>
+<body>
+    <div style="margin: 10%">
+        <h3 id="demo">
+            JavaScript Can Change HTML Content!
+        </h3>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = 'After Changing HTML Content!'">
+            Change
+        </button><br>
+
+        <button onclick="document.getElementById('myImage').src='/IMG/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="/IMG/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='/IMG/pic_bulboff.gif'">Turn off the light</button>
+    </div>
+</body>
+</html>
