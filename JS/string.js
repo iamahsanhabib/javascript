@@ -24,3 +24,10 @@ function splitText(){
     }
     document.getElementById('demo3').innerHTML = k;
 }
+
+function searchIndex(){
+    var text = 'I Love my country.'
+    document.getElementById('demo4').innerHTML = text.indexOf('Love');
+    text = 'Hello Hello Bangladesh'
+    document.getElementById('demo5').innerHTML = text.lastIndexOf('Hello')
+}
