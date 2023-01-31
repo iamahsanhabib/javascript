@@ -31,3 +31,11 @@ function searchIndex(){
     text = 'Hello Hello Bangladesh'
     document.getElementById('demo5').innerHTML = text.lastIndexOf('Hello')
 }
+
+function printArray()
+{
+    var cars = ["Saab", "Volvo", "BMW"];
+    cars[0] = 'Toyota';
+    
+    document.getElementById('demo6').innerHTML = cars;
+}
