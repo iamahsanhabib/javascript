@@ -7,7 +7,10 @@ function showError(){
         else throw 'too low';
     }
     catch(err){
-        document.getElementById('demo').innerHTML = x.trim();
+        document.getElementById('demo').innerHTML = err;
+    }
+    finally{
+        document.getElementById('text1').value = '';
     }
     
 }
