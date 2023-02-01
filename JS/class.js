@@ -18,3 +18,5 @@ function show()
     'Age of ' + car2.name + ' is ' + car2.age();
 
 }
+
+let birthdate = new Date().getFullYear();
